@@ -1,0 +1,118 @@
+.parent{
+    position: fixed;
+    display: flex;
+    height: 23.2rem;
+    width: 79rem;
+    background-color: rgb(255, 214, 181);
+    margin-bottom: 0.1rem;
+}
+.xmlContainer{
+    display: inline-block;
+    height: 23em;
+    width: 38em;
+    background-color: rgb(255, 255, 255);
+    margin: 0.1rem;
+    border: 0.5px solid rgb(255, 145, 145);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.xmlContainer::-webkit-scrollbar { 
+    display: none;
+}
+.edit{
+    position: absolute;
+    bottom: 0;
+    right: 43rem;
+    color:rgb(61, 15, 15);
+}
+.edit:hover{
+    cursor: pointer;
+    color: rgb(113, 41, 41);
+}
+.xmlSpan, .jsonSpan{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255, 214, 181);
+    color:rgb(61, 15, 15);
+    float: right;
+    top: 0;
+    font-size: 13px;
+    margin: 0.1rem;
+    border: 0.5px solid rgb(255, 145, 145);
+    font-family: math;
+}
+.xmlInnerContainer, .jsonInnerContainer{
+    font-family: math;
+    overflow: auto;
+    white-space: pre;
+}
+.options{
+    display: inline-block;
+    height: 23.05em;
+    width: 7em;
+    background-color: rgb(255, 145, 145);
+    margin: 0.1rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+.jsonContainer{
+    display: inline-block;
+    height: 23em;
+    width: 38em;
+    background-color: rgb(255, 255, 255);
+    margin: 0.1rem;
+    border: 0.5px solid rgb(255, 145, 145);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.jsonContainer::-webkit-scrollbar { 
+    display: none;
+}
+.inputDiv{
+    position: fixed;
+    background-color: rgb(255, 214, 181);
+    top: 23.7rem;
+    height: 13.7em;
+    width: 79rem;
+}
+.inputBox{
+    border: 0.5px solid rgb(255, 145, 145);
+    margin: 0.1rem;
+    height: 11rem;
+    width: 78.5rem;
+    resize: none;
+}
+.buttons{
+    margin: 0.2rem;
+    float: right;
+}
+.rewriteBtn, .appendBtn{
+    background-color:rgb(255, 145, 145);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: math;
+}
+.rewriteBtn:hover, .appendBtn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 123, 123);
+}
+.uploadBtn, .convertBtn, .clearBtn, .newtabJsonBtn, .downloadBtn{
+    background-color:rgb(255, 214, 181);
+    border: none;
+    width: 5em;
+    color: rgb(61, 15, 15);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    font-family: math;
+}
+.uploadBtn{
+    margin-top: 2.2rem;
+}
+.uploadBtn:hover, .convertBtn:hover, .clearBtn:hover, .newtabJsonBtn:hover, .downloadBtn:hover{
+    cursor: pointer;
+    background-color: rgb(251, 195, 150);
+}
